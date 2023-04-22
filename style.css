@@ -50,3 +50,9 @@ main {
     text-align: justify;
 } 
 
+.bonus section{
+    display: inline-block;
+    width: 190px;
+    text-align: justify;
+    padding: 10px;
+}
