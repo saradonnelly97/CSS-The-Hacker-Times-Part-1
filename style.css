@@ -20,16 +20,18 @@ h1 {
 
 h2 {
     font-family: 'Abril Fatface', cursive;
-    font-weight: 300;
 }
 
 a {
     color: #777;
 }
 
-nav li {
+nav {
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
+}
+nav li {
+
     list-style: none;
     display: inline-block;
     padding: 5px; 
