@@ -2,6 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #eee;
     
+    
 }
 
 .newspaper-container {
@@ -19,7 +20,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -40,19 +45,38 @@ nav li {
 main {
     width: 600px;
     text-align: justify;
+    margin: auto;
 }
 
-.more-articles section{
+.more-articles section {
     display: inline-block; 
-    width: 250px;
+    width: 300px;
     margin: auto;
     padding: 20px;
     text-align: justify;
 } 
 
-.bonus section{
+.bonus section {
     display: inline-block;
+    margin: auto;
     width: 190px;
     text-align: justify;
     padding: 10px;
+    font-size: 14px;
+} 
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+}
+
+footer ol li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    font-size: 12px;
 }
